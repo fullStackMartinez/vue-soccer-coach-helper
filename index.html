@@ -13,6 +13,9 @@
 				<input v-model="newPlayer" type="text" name="roster" id="roster" value="">
 				<button type="submit" name="button">Add Player</button>
 			</form>
+			<ul>
+				<li v-for="player in players">{{player}}</li>
+			</ul>
 		</main>
 
 		<script src="https://cdn.jsdelivr.net/vue/1.0.28/vue.min.js"></script>
