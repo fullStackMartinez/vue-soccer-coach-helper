@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Coaches Helper</title>
+		<style>
+			.completed {
+				text-decoration: line-through;
+			}
+		</style>
+	</head>
+	<body>
+		<main id="practice">
+			<h1>{{ title }}</h1>
+			<form v-on:submit.prevent="addDrill">
+				<label for="drills">Drill Name</label>
+				<input v-model="newDrill" type="text" name="drills" id="drills" value="">
+				<button type="submit" name="button">Add Drill</button>
+			</form>
+			<ul>
+				<li v-for="drill in drills">
+					<span v-on:click="drill.completed = !drill.completed" v-bind:class="{completed: drill.completed}">{{drill.drillName}}</span></li>
+			</ul>
+		</main>
+
+		<script src="https://cdn.jsdelivr.net/vue/1.0.28/vue.min.js"></script>
+		<script src="app/app.js"></script>
+	</body>
+</html>
