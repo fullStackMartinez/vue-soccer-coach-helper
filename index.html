@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Coaches Helper</title>
+	</head>
+	<body>
+		<main id="app">
+			<h1>{{ title }}</h1>
+			<form v-on:submit.prevent="addPlayer">
+				<label for="roster">Roster</label>
+				<input v-model="newPlayer" type="text" name="roster" id="roster" value="">
+				<button type="submit" name="button">Add Player</button>
+			</form>
+		</main>
+
+		<script src="https://cdn.jsdelivr.net/vue/1.0.28/vue.min.js"></script>
+		<script src="app/app.js"></script>
+	</body>
