@@ -22,13 +22,12 @@ const app = new Vue({
 
 		removePlayer(player) {
 			const playerArray = this.players.indexOf(player);
-
 			this.players.splice(playerArray, 1);
 		}
 	}
 });
 
-//going to create an instance for the practice to do list
+//going to create an instance for the practice drills list
 const toDo = new Vue({
 	el: '#practice',
 	data: {

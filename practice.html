@@ -4,6 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Coaches Helper</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Anton|Cutive" rel="stylesheet">
 		<style>
 			.completed {
 				text-decoration: line-through;
@@ -22,10 +24,8 @@
 				<li v-for="drill in drills">
 					<span v-on:click="drill.completed = !drill.completed" v-bind:class="{completed: drill.completed}">{{drill.drillName}}</span></li>
 			</ul>
+			<a href="index.html">Go To Your Roster</a>
 		</main>
-
-		<a href="index.html">Go To Your Roster</a>
-
 		<script src="https://cdn.jsdelivr.net/vue/1.0.28/vue.min.js"></script>
 		<script src="app/app.js"></script>
 	</body>

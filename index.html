@@ -4,30 +4,30 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Coaches Helper</title>
-		<style>
-
-		</style>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Anton|Cutive" rel="stylesheet">
 	</head>
 	<body>
 		<main id="app">
 			<h1>{{ title }}</h1>
 			<form v-on:submit.prevent="addPlayer">
 				<label for="roster">Player Name</label>
+
 				<input v-model="newPlayer" type="text" name="roster" id="roster" value="">
 				<label for="position">Player Position</label>
+
 				<input v-model="newPosition" type="text" name="position" id="position" value="">
 				<button type="submit" name="button">Add Player</button>
 			</form>
 			<ul>
 				<li v-for="player in players">
-					Player Name: {{player.name}} , Player Position{{player.position}}
+					<div class="container">
+						<span class="player-output"><strong>Player Name:</strong>  {{player.name}}</span>  <span class="player-output"><strong>Position:</strong>  {{player.position}}</span></div>
 					<button v-on:click="removePlayer(player)" type="button" name="clearButton">Remove Player</button>
 				</li>
 			</ul>
+			<a href="practice.html">Set Up Drills</a>
 		</main>
-
-		<a href="practice.html">Set Up Drills</a>
-
 		<script src="https://cdn.jsdelivr.net/vue/1.0.28/vue.min.js"></script>
 		<script src="app/app.js"></script>
 	</body>
