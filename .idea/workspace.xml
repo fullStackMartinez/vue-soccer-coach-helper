@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d888fdbb-90eb-4f3e-bd3b-f38a5cb21ce9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,21 +15,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
+                <state relative-caret-position="595">
                   <caret line="25" column="89" lean-forward="false" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="518">
-                  <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+                <state relative-caret-position="731">
+                  <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -291,7 +289,7 @@
       <workItem from="1540403865711" duration="14808000" />
       <workItem from="1540441119189" duration="55000" />
       <workItem from="1540482916065" duration="3887000" />
-      <workItem from="1540490463710" duration="1251000" />
+      <workItem from="1540490463710" duration="1764000" />
     </task>
     <task id="LOCAL-00001" summary="added empty string property in data, along with an array to hold input&#10;displaying items in array using v-for loop in a ul li tags">
       <created>1540408694532</created>
@@ -335,11 +333,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540490880923</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="styled button">
+      <created>1540495579142</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540495579143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20001000" />
+    <option name="totallyTimeSpent" value="20514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1620" y="158" width="1202" height="775" extended-state="0" />
@@ -376,7 +381,8 @@
     <MESSAGE value="added practice.html to make a drills list&#10;added button to remove player from roster&#10;added dynamic class to drills li to strike through when clicked" />
     <MESSAGE value="added a tag on practice page to link back to roster" />
     <MESSAGE value="simple styling, simple mark up edits to a tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple styling, simple mark up edits to a tag" />
+    <MESSAGE value="styled button" />
+    <option name="LAST_COMMIT_MESSAGE" value="styled button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -479,18 +485,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="89" lean-forward="false" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
+        <state relative-caret-position="731">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="595">
+          <caret line="25" column="89" lean-forward="false" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
           <folding />
         </state>
       </provider>
