@@ -47,3 +47,7 @@ li {
 	padding-top: 20px;
 	list-style-type: none;
 }
+
+li button {
+	margin-top: 15px;
+}
